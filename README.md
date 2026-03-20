@@ -1,16 +1,26 @@
-# React + Vite
+# Polly-C Agent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Communications surveillance AI prototype — alert triage dashboard with chain-of-thought reasoning and multi-persona model performance monitoring.
 
-Currently, two official plugins are available:
+## What this demonstrates
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Two interfaces for an enterprise communications compliance platform:
 
-## React Compiler
+1. **Analyst Alert Triage** — AI-assisted review queue with chain-of-thought explainability, severity-ranked prioritization, and one-click disposition workflow
+2. **Internal Model Performance** — Three persona views (compliance team, head of product, head of data science) tracking precision/recall, customer health, calibration, and drift detection
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Domain context
 
-## Expanding the ESLint configuration
+Built for the communications surveillance market (Smarsh, Global Relay, NICE Actimize). Enterprise banks monitor trader and employee communications across Bloomberg, Teams, email, voice, and SMS for regulatory violations including insider trading (MNPI), market manipulation, off-channel communications, and conduct risk. FINRA and the SEC require firms to surveil, review, and document their oversight process.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech stack
+
+- React (single JSX artifact)
+- Tailwind CSS
+- Recharts for data visualization
+- Lucide React for iconography
+- All synthetic data — no external APIs
+
+## Regulatory alignment
+
+Alert scenarios and chain-of-thought reasoning are informed by FINRA's 2026 Annual Regulatory Oversight Report findings on surveillance deficiencies, GenAI governance expectations, and SEC enforcement actions on off-channel communications.
